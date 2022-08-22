@@ -38,7 +38,7 @@ The purpose of this session is to provide a brief introduction to programming as
 ### While Loops
 
 ## Resources / References
-[interactive intro to Git](https://learngitbranching.js.org/)
-[practice problems for beginner programmers](https://www.codestepbystep.com/)
-[Practical Unix(command line tutorial) playlist by Sam King](https://www.youtube.com/playlist?list=PLAn5BRyzQEf9VoK8gRKp8Z0LGME6fISaE)
+[interactive intro to Git](https://learngitbranching.js.org/) <br>
+[practice problems for beginner programmers](https://www.codestepbystep.com/) <br>
+[Practical Unix(command line tutorial) playlist by Sam King](https://www.youtube.com/playlist?list=PLAn5BRyzQEf9VoK8gRKp8Z0LGME6fISaE) <br>
 
