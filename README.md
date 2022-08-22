@@ -53,6 +53,7 @@ printf("Code is done running\n");
 ### If Else statements
 
 ```c
+// example if else statement in C
 int x = 1;
 int y = 0;
 if (x > y) {
@@ -63,9 +64,10 @@ if (x > y) {
 printf("Code is done running\n");
 ```
 
-### If Elif Else statements
+### If Else if Else statements
 
 ```c
+// example if, else if, else statement in c
 int x = 1;
 int y = 0;
 if (x > y) {
