@@ -17,6 +17,14 @@ The purpose of this session is to provide a brief introduction to programming as
 
 ![](img/cdatatype.png)
 
+```c
+int x = 5;
+double y = 5.6;
+char z = 'a';
+char* exampleWord = "ZBTHS";
+string exampleWord2 = "ZeeBee";
+```
+
 ## Operators
 
 ![](img/Operators-In-C.png)
