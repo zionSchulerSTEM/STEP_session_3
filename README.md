@@ -3,15 +3,15 @@ Intro to Programming
 
 ## Variables
 
-![](cdatatype.png)
+![](img/cdatatype.png)
 
 ## Operators
 
-![](Operators-in-C.png)
+![](img/Operators-in-C.png)
 
 ## Conditional Logic
 
-![](if-elif-else.png)
+![](img/if-elif-else.png)
 
 ### If statements
 
