@@ -18,6 +18,7 @@ The purpose of this session is to provide a brief introduction to programming as
 ![](img/cdatatype.png)
 
 ```c
+// example variable declarations in C
 int x = 5;
 double y = 5.6;
 char z = 'a';
@@ -29,21 +30,67 @@ string exampleWord2 = "ZeeBee";
 
 ![](img/Operators-In-C.png)
 
+```c
+
+```
+
 ## Conditional Logic
 
 ![](img/if-elif-else.png)
 
 ### If statements
 
+```c
+// example if statement in C
+int x = 1;
+int y = 0;
+if (x > y) {
+  printf("x is greater than y\n");
+}
+printf("Code is done running\n");
+```
+
 ### If Else statements
 
+```c
+int x = 1;
+int y = 0;
+if (x > y) {
+  printf("x is greater than y\n");
+} else {
+  printf("x is not greater than y\n");
+}
+printf("Code is done running\n");
+```
+
 ### If Elif Else statements
+
+```c
+int x = 1;
+int y = 0;
+if (x > y) {
+  printf("x is greater than y\n");
+} else if(y > x) {
+  printf(y is greater than x\n");
+} else {
+  printf("x is equal to y\n");
+}
+printf("Code is done running\n");
+```
 
 ## Loops
 
 ### For Loops
 
+```c
+
+```
+
 ### While Loops
+
+```c
+
+```
 
 ## Resources / References
 [interactive intro to Git](https://learngitbranching.js.org/) <br>
