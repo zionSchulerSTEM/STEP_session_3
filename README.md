@@ -24,3 +24,6 @@ Intro to Programming
 ### For Loops
 
 ### While Loops
+
+## Resources / References
+
