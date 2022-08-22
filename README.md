@@ -7,7 +7,7 @@ Intro to Programming
 
 ## Operators
 
-![](img/Operators-in-C.png)
+![](img/Operators-In-C.png)
 
 ## Conditional Logic
 
