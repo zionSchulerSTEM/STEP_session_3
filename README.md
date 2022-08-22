@@ -31,7 +31,26 @@ string exampleWord2 = "ZeeBee";
 ![](img/Operators-In-C.png)
 
 ```c
+int addResult;
+int subtractResult;
+int multiplyResult;
+int divideResult;
+bool greaterThanResult;
+bool lessThanResult;
+bool equalsResult;
+bool doesNotEqualResult;
 
+int x = 7;
+int y = 4;
+
+addResult = x + y;
+subtractResult = x - y;
+multiplyResult = x * y;
+divideResult = x / y;
+greaterThanResult = x > y;
+lessThanResult = x < y;
+equalsResult = x == y;
+doesNotEqualResult = x != y;
 ```
 
 ## Conditional Logic
@@ -85,13 +104,21 @@ printf("Code is done running\n");
 ### For Loops
 
 ```c
-
+// example for statement in C
+for (int x = 0; x < 3; x++) {
+  printf("x is %d", x);
+}
 ```
 
 ### While Loops
 
 ```c
-
+// example while statement in C
+int x = 5;
+while (x > 0) {
+  printf("x is %d", x);
+  x--;
+}
 ```
 
 ## Resources / References
