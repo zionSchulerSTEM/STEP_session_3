@@ -35,6 +35,8 @@ int addResult;
 int subtractResult;
 int multiplyResult;
 int divideResult;
+int incrementResult;
+int decrementResult;
 bool greaterThanResult;
 bool lessThanResult;
 bool equalsResult;
@@ -51,6 +53,8 @@ greaterThanResult = x > y;
 lessThanResult = x < y;
 equalsResult = x == y;
 doesNotEqualResult = x != y;
+incrementResult = ++x;
+decrementResult = --y;
 ```
 
 ## Conditional Logic
