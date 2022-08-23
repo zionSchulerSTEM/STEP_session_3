@@ -125,10 +125,15 @@ while (x > 0) {
 }
 ```
 ## Soft Skills for progamming
+Believe it or not, there is a lot more that goes into computer science than just programming and making computers go "beep boop". Here are some fundamentals that are not directly related to programming that can set a good programmer apart from a great programmer. The quicker you internalize these concepts / incorporate these procresses into your work flow, the quicker you can become a proficient programmer that can write, design, and communicate code. 
 
 ### Abstraction + Decomposition
 
+![](img/decomp.png)
+
 ### Test Driven Development (TDD)
+
+![](img/test-driven-development.jpeg)
 
 ### Navigating Documentation effeciently
 
