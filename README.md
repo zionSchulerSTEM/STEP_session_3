@@ -142,3 +142,5 @@ Believe it or not, there is a lot more that goes into computer science than just
 [practice problems for beginner programmers](https://www.codestepbystep.com/) <br>
 [Practical Unix(command line tutorial) playlist by Sam King](https://www.youtube.com/playlist?list=PLAn5BRyzQEf9VoK8gRKp8Z0LGME6fISaE) <br>
 [Documentation for all of the major programming languages all at 1 place :)](https://devdocs.io/)
+[Tips for reading documentation](https://blog.techtalentsouth.com/8-tips-to-reading-documentation-a-newbies-guide)
+[Tips for writing documentation](https://guides.lib.berkeley.edu/how-to-write-good-documentation)
