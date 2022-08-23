@@ -124,9 +124,16 @@ while (x > 0) {
   x--;
 }
 ```
+## Soft Skills for progamming
+
+### Abstraction + Decomposition
+
+### Test Driven Development (TDD)
+
+### Navigating Documentation effeciently
 
 ## Resources / References
 [interactive intro to Git](https://learngitbranching.js.org/) <br>
 [practice problems for beginner programmers](https://www.codestepbystep.com/) <br>
 [Practical Unix(command line tutorial) playlist by Sam King](https://www.youtube.com/playlist?list=PLAn5BRyzQEf9VoK8gRKp8Z0LGME6fISaE) <br>
-
+[Documentation for all of the major programming languages all at 1 place :)](https://devdocs.io/)
