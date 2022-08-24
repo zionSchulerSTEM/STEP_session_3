@@ -14,6 +14,31 @@ The purpose of this session is to provide a brief introduction to programming as
 
 
 ## Variables
+Variables are simply values that can change over time. One of the most important distinctions that one can make between different programming languages is whether or not a language is typed or not. A typed system forces programmers to specify the 'type' of a variable before using that variable. An example of a statically typed language is C/C++. This is contrasted with dynamically typed languages, like Python, that allow variables to change type over time. For example, if I create an integer variable, named x, I cannot later change x to string or a boolean. 
+
+```c
+// Example of trying to change a variables type in C
+// Try running this code and see what happens
+int x = 5;
+// do stuff
+// do more stuff
+x = 5.5        // Cant do this, 5.5 is not an integer
+x = True       // Cant do this, True is not an integer
+```
+
+Although this code will not work in a statically typed language like C, this type of code is perfectly fine in a language like Python. For example, the code below will run just fine.
+
+```py
+# Example of changing a variable from one type to another type in Python
+x = 5
+# Do stuff
+# Do more stuff
+x = 5.5
+# more stuff
+x = True
+```
+
+Notice that in Python, we do not have to explicitly declare the type of a variable before we create it. In C, we see that we need to type 'int', 'float', 'double', or some other variable type before creating a variable. While some may appreciate the simplicity of the syntax in Python, every decision has a tradeoff. Dynamically typed languages can be easier to use and pick up, but lots of subtle bugs and errors can happen if one is not mindful of how 
 
 ![](img/cdatatype.png)
 
