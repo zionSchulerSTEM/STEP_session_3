@@ -52,6 +52,7 @@ string exampleWord2 = "ZeeBee";
 ```
 
 ## Operators
+An operator is used to modify/do something with a variable. Most operators are binary operators, meaning that they operate on two variables at once, but there are unary and ternary operators that work one one and three variables, respectively. Operators typically fall into the categories of arithmetic operators, logical operators, and bit wise operators. Most beginner programmers need only concern themselves with the arithmetic operators and logical operators. Arithmetic operators, such as the plus sign, minus sign, multiplication sign, and division sign are used to perform some sort of calculation on a set of variables. Logical operators, on the other hand, are typically used to encode conditional logic which is used to take different branches of execution based on the values of the variables during runtime. Examples of logical operators include the double ampersand (&&), the double pipe (||), and exclamation point equals sign (!=), which perform logical and, logical or, and does not equal. 
 
 ![](img/Operators-In-C.png)
 
@@ -82,7 +83,20 @@ incrementResult = ++x;
 decrementResult = --y;
 ```
 
+Notice that each language may have slightly different syntax and slightly different sets of features, but they overall accomplish just about the same thing. Although everyone is different, I have personally found that learning some sort of typed language (like Java, C, or C++) is ideal to learn first, since the statically typed to dynamically typed transition is easier for most than the dynamically typed to statically typed transition. Something to note is that although operators are usually operating on variables of the same type, they need not to. For example, if one were to run the following code 
+
+```c
+int a = 5;
+double b = 5.5;
+double c = a + b;  // c should contain 10.5
+```
+
+The output would be 10.5, which is what we (hopefully) expected. In this case, an integer and a double are being operated on and yield another double. There are other cases in which an operator is defined for different types of objects. In fact, C and C++ allow users to overload operators to fit the needs of their program, so it is generally best practice to go to the documentation and see how the behaviour of operators is defined. 
+
+
 ## Conditional Logic
+
+Conditional logic is used to take different branches of execution based on the values of the variables during run time. For example, one may want to run a certain branch of code and print a certain message to the console based on the relationship between the variables x and y. For the most part, there are three different types of conditional logic that a beginner programmer should focus on. These are the if statements, if else statements, and if, else if , else statements. 
 
 ![](img/if-elif-else.png)
 
@@ -129,6 +143,8 @@ printf("Code is done running\n");
 ```
 
 ## Loops
+
+Loops are a means of reusing code and avoiding duplicate code. A programmer must have a sufficient degree of laziness or forethought in order to condense their programs to the smallest possible size. This often helps with the performance of the program and the readability of the program. One of the first ways one can learn to condense code is to use loops. Loops are blocks of code that repeatedly execute for a certain number of steps or while a certain logical condition is met. Typically, for loops are used to execute a block for a predefined number of steps, while a while loop typically executes as long as some logical condition remains true or false. It is important to not get too caught up in the distinctions I have made. Look at them as rules of thumb / heuristics moreso than truisms. Interestingly, every for loop can be represented as a while loop, and vice versa. This means that the right looping paradigm to use is the one that correctly solves the problem and comes easieset to you. 
 
 ### For Loops
 
